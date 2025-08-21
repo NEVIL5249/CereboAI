@@ -45,6 +45,27 @@ Built with **Supabase Auth + Database** for secure login and persistent chat his
 
 ---
 
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./screenshots/home.png)
+
+### 🔐 Authentication
+![Login Page](./screenshots/login.png)
+
+### 🆚 Comparison Mode
+![Comparison Mode](./screenshots/comparison.png)
+
+### 💬 Single Model Chat
+![Single Model Chat](./screenshots/single-model.png)
+
+
+
+---
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites

@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { User, LogOut } from "lucide-react";
+import { User, LogOut, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 
@@ -30,7 +30,7 @@ const Navigation = ({ title = "CereboAI", showBackButton = false, backTo = "/" }
         <div className="flex items-center space-x-4">
           {showBackButton && (
             <Button variant="ghost" size="sm" onClick={() => navigate(backTo)}>
-              ← Back
+              <ArrowLeft className="h-4 w-4" />
             </Button>
           )}
           <h1 className="text-2xl font-bold">{title}</h1>
